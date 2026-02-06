@@ -1,0 +1,1 @@
+Introduction about bug hunting
