@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bug Bounty Learning Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0a2540, #1b4f72);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: #0a2540;
+      display: flex;
+      justify-content: center;
+      padding: 12px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #0a2540;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #1b4f72;
+    }
+
+    .card p {
+      line-height: 1.6;
+    }
+
+    footer {
+      background: #0a2540;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 50px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #1b4f72;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+
+    .btn:hover {
+      background: #163a54;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Bug Bounty Learning Hub</h1>
+  <p>
+    Learn ethical hacking and bug bounty hunting step by step.
+    Practice legally, build skills, and earn rewards by securing real-world applications.
+  </p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#path">Learning Path</a>
+  <a href="#platforms">Platforms</a>
+  <a href="#why">Why Bug Bounty</a>
+</nav>
+
+<section id="about">
+  <h2>What is Bug Bounty?</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Ethical Security Research</h3>
+      <p>
+        Bug bounty programs allow security researchers to find and responsibly
+        report vulnerabilities in websites and applications.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Legal & Authorized</h3>
+      <p>
+        Testing is performed only on systems that explicitly allow it through
+        public or private disclosure programs.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Reward Based</h3>
+      <p>
+        Companies pay researchers based on the severity and impact of the
+        reported vulnerability.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="path">
+  <h2>Beginner Learning Path</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Web Fundamentals</h3>
+      <p>HTTP, cookies, sessions, authentication, APIs, and how web apps work.</p>
+    </div>
+    <div class="card">
+      <h3>Common Vulnerabilities</h3>
+      <p>Access control issues, authentication flaws, logic bugs, and injections.</p>
+    </div>
+    <div class="card">
+      <h3>Hands-on Practice</h3>
+      <p>Use labs and legal practice platforms before testing real programs.</p>
+    </div>
+  </div>
+</section>
+
+<section id="platforms">
+  <h2>Popular Bug Bounty Platforms</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>HackerOne</h3>
+      <p>One of the largest platforms hosting public and private bounty programs.</p>
+    </div>
+    <div class="card">
+      <h3>Bugcrowd</h3>
+      <p>Offers structured programs and vulnerability rating frameworks.</p>
+    </div>
+    <div class="card">
+      <h3>Learning Labs</h3>
+      <p>Platforms like PortSwigger Academy and TryHackMe help beginners learn safely.</p>
+    </div>
+  </div>
+</section>
+
+<section id="why">
+  <h2>Why Learn Bug Bounty?</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Skill-Based Income</h3>
+      <p>You earn based on skill, not degrees or location.</p>
+    </div>
+    <div class="card">
+      <h3>Career Opportunities</h3>
+      <p>Bug bounty experience helps in security analyst and pentesting roles.</p>
+    </div>
+    <div class="card">
+      <h3>Continuous Learning</h3>
+      <p>Real applications provide constantly evolving challenges.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Bug Bounty Learning Hub — Educational Purpose Only</p>
+</footer>
+
+<script>
+  // Simple safe JS example (UI only)
+  console.log("Bug Bounty Learning Hub loaded successfully.");
+</script>
+
+</body>
+</html>
